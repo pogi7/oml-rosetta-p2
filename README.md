@@ -7,8 +7,8 @@ For the main global update site: every new version will be available when using 
 
 - `https://opencaesar.github.io/oml-rosetta-p2/updates/<major>.x`
 
-For all the releases with <major> version (for example, 1.x for new releases with major version 1)
+For all the releases with major version (e.g., 1.x)
 
 - `https://opencaesar.github.io/oml-rosetta-p2/updates/<major>.x/<major>.<minor>.x`
 
-For all the releases with <major> version and <minor> version (for example, 1.x/1.2.x for new releases with major version 1 and minor version 2)
+For all the releases with major.minor version (e.g., 1.x/1.2.x)
