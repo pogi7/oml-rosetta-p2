@@ -1,5 +1,5 @@
 # Rosetta p2 update site
-This is the composite p2 update site(s) of Rosetta. Choose the site URL that best suits your use case.
+This is the composite p2 update site(s) for OML [Rosetta](https://github.com/opencaesar/oml-rosetta) RCP. Choose the site URL that best suits your use case.
 
 - `https://opencaesar.github.io/oml-rosetta-p2`
 
