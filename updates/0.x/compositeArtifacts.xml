@@ -2,11 +2,12 @@
 <?compositeArtifactRepository version='1.0.0'?>
 <repository name='OML Rosetta p2 site 0.x' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1619686052548'/>
+    <property name='p2.timestamp' value='1623831875852'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='2'>
+  <children size='3'>
     <child location='0.7.x'/>
     <child location='0.8.x'/>
+    <child location='0.9.x'/>
   </children>
 </repository>
