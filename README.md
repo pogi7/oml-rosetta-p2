@@ -1,22 +1,16 @@
 # Rosetta p2 update site
-This is the composite p2 update site(s) for OML [Rosetta](https://github.com/opencaesar/oml-rosetta) RCP. Choose the site URL that best suits your use case.
+This is the composite p2 update site(s) that can be used to install [Rosetta](https://github.com/opencaesar/oml-rosetta) into an existing Eclipse.
+
+For all releases (all versions), use:
 
 - `https://opencaesar.github.io/oml-rosetta-p2`
 
-For the main global update site: every new version will be available when using this site
+For all releases with a major version (e.g., 1.x), use:
 
 - `https://opencaesar.github.io/oml-rosetta-p2/updates/<major>.x`
 
-For all the releases with major version (e.g., 1.x)
+For all releases with a major.minor version (e.g., 1.2.x), use:
 
 - `https://opencaesar.github.io/oml-rosetta-p2/updates/<major>.x/<major>.<minor>.x`
 
-For all the releases with major.minor version (e.g., 1.x/1.2.x)
-
-## IMPORTANT
-
-When trying to install Rosetta using those update sites above, Eclipse may complain that it could not find an update site for OML. In this case, go in your Eclipse to Preferences...->Install/Update->Available Software Sites, and add the OML update site using the URL:
-
-- `https://opencaesar.github.io/oml-p2`
-
-Then try to install Rosetta again. It should work fine this time.
+> When trying to install Rosetta using the update site, Eclipse may complain that it could not install the OML dependencies. In this case, navigate to your Eclipse's Preferences Page and select Install/Update -> Available Software Sites. Find an update site called `OML Respository` and edit it. Add a `/` to the end of the Location (to become `https://opencaesar.github.io/oml-p2/`) then click `Add` to close the dialog. Click the `Reload` button, and wait until it is done then click the `Apply and Close` button. Now, try again to install Rosetta; it should install fine this time.
