@@ -5,8 +5,7 @@
     <property name='p2.timestamp' value='1631007987342'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='2'>
-    <child location='updates/0.x'/>
+  <children size='1'>
     <child location='updates/1.x'/>
   </children>
 </repository>
