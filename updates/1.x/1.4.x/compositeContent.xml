@@ -2,11 +2,12 @@
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='Rosetta Repository 1.4.x' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1669766429330'/>
+    <property name='p2.timestamp' value='1670540531995'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='2'>
+  <children size='3'>
     <child location='../../../releases/1.4.0'/>
     <child location='../../../releases/1.4.1'/>
+    <child location='../../../releases/1.4.2'/>
   </children>
 </repository>
