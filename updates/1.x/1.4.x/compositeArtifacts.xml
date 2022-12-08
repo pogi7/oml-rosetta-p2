@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
-<repository name='pogi7 Rosetta Repository 1.4.x' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+<repository name='Rosetta Repository 1.4.x' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1670540531991'/>
+    <property name='p2.timestamp' value='1670541442482'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='3'>
+  <children size='4'>
     <child location='../../../releases/1.4.0'/>
     <child location='../../../releases/1.4.1'/>
     <child location='../../../releases/1.4.2'/>
+    <child location='../../../releases/1.4.3'/>
   </children>
 </repository>
